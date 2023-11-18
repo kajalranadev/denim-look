@@ -14,8 +14,8 @@ body {
 }
 
 h2 {
-  font-size: 5rem;
-  color: #fff; 
+  font-size: 6rem;
+  color: #fff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
@@ -34,6 +34,7 @@ main {
 .first h2,
 .second h2 {
   position: absolute;
+  opacity: 0.8;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -47,7 +48,6 @@ main {
   background-image: url("./images/second.webp");
 }
 
-
 .first,
 .second {
   background-position: center;
@@ -55,4 +55,14 @@ main {
   background-repeat: no-repeat;
 }
 
+.overlay {
+  height: 100%;
+}
 
+.first .overlay {
+  background-color: rgba(0, 0, 0, 0.09);
+}
+
+.second .overlay {
+  background-color: rgba(255, 55, 55, 0.09);
+}
