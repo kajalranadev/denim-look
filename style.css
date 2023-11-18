@@ -60,9 +60,9 @@ main {
 }
 
 .first .overlay {
-  background-color: rgba(0, 0, 0, 0.09);
+  background-color: rgb(0 0 0 / 33%);
 }
 
 .second .overlay {
-  background-color: rgba(255, 55, 55, 0.09);
+  background-color: rgb(255 55 55 / 4%);
 }
